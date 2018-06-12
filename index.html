@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Booust HomeStudy</title>
+</head>
+<body>
+	<div id = "header">
+		<button onclick="ListOfAnimals()"> Start </button>
+	</div>
+
+<script type="text/javascript">
+	function ListOfAnimals(){
+	const animals = ["ape", "antelope", "bird", "butterfly", "bee", "cat","monkey", "mouse", "snake", "whale", "zebra"];
+	var person = prompt("Please type the name of your favorite animal", "cat");
+	if (animals.includes(person) == true){
+		alert("You guessed right, Well done !");
+	} else {
+		alert ("Not among our list, another Guess!");
+	}
+	}
+</script>
+</body>
+</html>
